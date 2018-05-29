@@ -34,7 +34,6 @@ module.exports = class Mard {
             if (x >= 0 && x < matrix[0].length && y >= 0 && y < matrix.length) {
                 if (matrix[y][x] == ch) {
                     found.push(this.directions[i]);
-                    // gish++;
                 }
             }
         }
@@ -74,7 +73,6 @@ module.exports = class Mard {
             for (var i in gishatichArr) {
                 if (gishatichArr[i].x == this.x && gishatichArr[i].y == this.y) {
                     gishatichArr.splice(i, 1);
-                    // document.write(this.utstat);
                 }
             }
         }
@@ -117,11 +115,8 @@ module.exports = class Mard {
             for (var i in mardArr) {
                 if (mardArr[i].x == this.x && mardArr[i].y == this.y) {
                     mardArr.splice(i, 1);
-                   /* gish = gish-1;*/
                 }
             }
         }
     }
 }
-/*console.log(gish);*/
-

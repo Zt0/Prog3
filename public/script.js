@@ -53,7 +53,6 @@ function setup() {
         for (var x in matrix[y]) {
             if (matrix[y][x] == 1) {
                 matrix[y][x] = 0;
-                console.log(rankill);
             }
         }
         }
@@ -65,7 +64,7 @@ function setup() {
         for (var y in matrix) {
         for (var x in matrix[y]) {
             if (matrix[y][x] == 2) {
-                    matrix[y][x] = 0;
+                matrix[y][x] = 0;
             }
         }
         }
@@ -77,7 +76,7 @@ function setup() {
         for (var y in matrix) {
         for (var x in matrix[y]) {
             if (matrix[y][x] == 3) {
-                    matrix[y][x] = 0;
+                matrix[y][x] = 0;
             }
         }
         }
@@ -89,7 +88,7 @@ function setup() {
         for (var y in matrix) {
         for (var x in matrix[y]) {
             if (matrix[y][x] == 4) {
-                    matrix[y][x] = 0;
+                matrix[y][x] = 0;
             }
         }
         }

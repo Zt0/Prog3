@@ -58,7 +58,6 @@ matrix = genMatrix(w, h);
 
 for (var y in matrix) {
         for (var x in matrix[y]) {
-            // console.log(matrix[y][x]);
             if (matrix[y][x] == 1) {
                 grassArr.push(new Grass(x * 1, y * 1, 1));
                 Cnvacxoter++;
@@ -83,18 +82,7 @@ for (var y in matrix) {
             }
         }
     }
-for (var y in matrix) {
-        for (var x in matrix[y]) {           
-             if (matrix[y][x] == 2.5) {
-                console.log("seth");
-              
-            }
-            else if (matrix[y][x] == 2) {
-                console.log("shsdjh");
-              
-            }
-        }
-    }
+
 io.on("connection", function (socket) {
 
     setInterval(function () {

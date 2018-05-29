@@ -1,4 +1,3 @@
-/*var gr = 0;*/
 module.exports = class Grass {
     constructor(x, y, index) {
         this.x = x;
